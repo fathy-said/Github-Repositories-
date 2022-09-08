@@ -1,0 +1,46 @@
+.repos {}
+
+.repos .row {}
+
+.repos .row input {
+  outline: none;
+  border: 1px solid #eee;
+  border-radius: 6px;
+}
+
+.repos .row input::placeholder {
+  text-transform: capitalize;
+}
+
+.repos .row input:focus {
+  border: 2px solid red;
+
+}
+
+.repos .show-data {
+  font-size: 18px;
+  font-weight: bold;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.repos .show-data div {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.repos .show-data div a {
+  padding: 10px 15px;
+  background-color: rgb(8, 87, 215);
+  margin-right: 40px;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 6px;
+}
+
+.repos .row button {}
